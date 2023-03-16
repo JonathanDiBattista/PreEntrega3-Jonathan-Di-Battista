@@ -1,0 +1,411 @@
+/* globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* INDEX */
+.header--container {
+  background-color: #E0BAD7;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav--style {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+/* Section 1 */
+.index--section {
+  margin-top: 100px;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* section 2 */
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.div--card {
+  width: 400px;
+  height: 400px;
+}
+
+.card-img-top {
+  width: 400px;
+  height: 400px;
+}
+
+/* section 3 */
+.img--container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  list-style: none;
+}
+
+.img--section {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.oreo {
+  height: 80px;
+  width: 80px;
+}
+
+.ferrero {
+  height: 80px;
+  width: 80px;
+}
+
+.kinder {
+  height: 80px;
+  width: 80px;
+}
+
+.sweet {
+  height: 80px;
+  width: 80px;
+}
+
+/* footer */
+footer {
+  background-color: #E0BAD7;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  height: 100%;
+}
+
+.div--footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.img_ul {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  list-style: none;
+}
+
+.img_footer {
+  height: 100%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.ig_logo {
+  height: 50px;
+  width: 50px;
+}
+
+.tw_logo {
+  height: 50px;
+  width: 50px;
+}
+
+.gmail_logo {
+  height: 50px;
+  width: 50px;
+}
+
+.copy {
+  text-align: center;
+}
+
+/* Nosotros */
+.all--section {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.container_div {
+  width: 100%;
+}
+
+.img_cajonp {
+  width: 100%;
+  height: 800px;
+}
+
+/* INFO */
+.info--section {
+  font-size: 2rem;
+}
+
+.inframe--img {
+  width: 100%;
+}
+
+/* CONTACTO */
+/* INDEX RESPONSIVE (1200px)*/
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  p {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .div--card {
+    width: 60px;
+    height: 60px;
+  }
+  .card-img-top {
+    width: 60px;
+    height: 60px;
+  }
+  .img--container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .img--section {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .oreo {
+    height: 70px;
+    width: 70px;
+  }
+  .ferrero {
+    height: 70px;
+    width: 70px;
+  }
+  .kinder {
+    height: 70px;
+    width: 70px;
+  }
+  .sweet {
+    height: 70px;
+    width: 70px;
+  }
+  /* footer */
+  .ig_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .tw_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .gmail_logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+/* INDEX RESPONSIVE (992px)*/
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .div--card {
+    width: 60px;
+    height: 60px;
+  }
+  .card-img-top {
+    width: 60px;
+    height: 60px;
+  }
+  .img--container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .img--section {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .oreo {
+    height: 60px;
+    width: 60px;
+  }
+  .ferrero {
+    height: 60px;
+    width: 60px;
+  }
+  .kinder {
+    height: 60px;
+    width: 60px;
+  }
+  .sweet {
+    height: 60px;
+    width: 60px;
+  }
+  /* footer */
+  .ig_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .tw_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .gmail_logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+/* INDEX RESPONSIVE (768px)*/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+}
+/* NOSOTROS RESPONSIVE (992px) */
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .img--container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .img--section {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .oreo {
+    height: 60px;
+    width: 60px;
+  }
+  .ferrero {
+    height: 60px;
+    width: 60px;
+  }
+  .kinder {
+    height: 60px;
+    width: 60px;
+  }
+  .sweet {
+    height: 60px;
+    width: 60px;
+  }
+  /* footer */
+  .ig_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .tw_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .gmail_logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+/* PRODUCTOS RESPONSIVE (1200px) */
+@media screen and (max-width: 1200px) {
+  .card-title {
+    text-align: center;
+  }
+}
+/* PRODUCTOS RESPONSIVE(992px) */
+@media screen and (max-width: 992px) {
+  .card-title {
+    text-align: center;
+  }
+  .card-body {
+    padding-top: 150px;
+    text-align: center;
+  }
+  .div--card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* PRODUCTOS RESPONSIVE (768px) */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2em;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .card-body {
+    padding-top: 200px;
+    text-align: center;
+  }
+  .div--card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .card-img-top {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
