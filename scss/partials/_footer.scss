@@ -1,0 +1,44 @@
+/* footer */
+
+footer{
+    background-color: #E0BAD7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    height: 100%;
+    .copy{
+        text-align: center;
+    }
+    .div--footer{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        .img_ul{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            list-style: none;
+            .img_footer{
+                height: 100%;
+                margin-top: 2rem;
+                margin-left: 2rem;
+            }
+            .ig_logo{
+                height:50px;
+                width:50px;
+            }
+            
+            .tw_logo{
+                height: 50px;
+                width: 50px;
+            }
+            
+            .gmail_logo{
+                height: 50px;
+                width: 50px;
+            }
+            
+        }
+    }
+
+}
