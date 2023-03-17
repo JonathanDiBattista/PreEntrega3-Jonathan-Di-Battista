@@ -1,6 +1,8 @@
+@use'./variables';
+
 .header--container{
-    background-color:#E0BAD7;
-    width: 100%;
+    background-color: variables.$color-general;
+    width: variables.$width-100;
     position: fixed;
     z-index: 1000;
     .nav--style{

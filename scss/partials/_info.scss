@@ -1,0 +1,11 @@
+@use'./variables';
+/* INFO */
+.info--section{
+    margin-top: 55px;
+    font-size: variables.$rem2;
+}
+.div--iframe{
+    .inframe--img{
+        width: variables.$width-100;
+    }
+}

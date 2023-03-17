@@ -1,0 +1,14 @@
+@use'./variables';
+/* Nosotros */  
+.container_div{
+    width: variables.$width-100;
+    .img_cajonp{
+        width: variables.$width-100;
+        height: 800px;
+    }
+}
+.all--section{
+    margin-top: 10px;
+    font-size: variables.$rem2;
+}
+    

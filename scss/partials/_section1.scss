@@ -1,0 +1,10 @@
+@use'./variables';
+/* Section 1 */
+.index--section{
+    margin-top: 100px;
+    font-size: variables.$rem2;
+    h1{
+        font-size: 6rem;
+        text-align: center;
+    }
+}

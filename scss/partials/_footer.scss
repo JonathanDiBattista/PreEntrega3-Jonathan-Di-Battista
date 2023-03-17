@@ -1,41 +1,41 @@
+@use'./variables';
 /* footer */
-
 footer{
-    background-color: #E0BAD7;
+    background-color: variables.$color-general;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    height: 100%;
+    height: variables.$height-100;
     .copy{
         text-align: center;
     }
     .div--footer{
-        height: 100%;
+        height: variables.$height-100;
         display: flex;
         justify-content: space-evenly;
         list-style: none;
         .img_ul{
             display: flex;
             justify-content: center;
-            height: 100%;
+            height: variables.$height-100;
             list-style: none;
             .img_footer{
-                height: 100%;
-                margin-top: 2rem;
-                margin-left: 2rem;
+                height: variables.$height-100;
+                margin-top: variables.$rem2;
+                margin-left: variables.$rem2;
             }
             .ig_logo{
-                height:50px;
-                width:50px;
+                height: variables.$footer-height;
+                width: variables.$footer-width;
             }
             
             .tw_logo{
-                height: 50px;
-                width: 50px;
+                height: variables.$footer-height;
+                width: variables.$footer-width;
             }
             
             .gmail_logo{
-                height: 50px;
-                width: 50px;
+                height: variables.$footer-height;
+                width: variables.$footer-width;
             }
             
         }
