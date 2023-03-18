@@ -1,0 +1,58 @@
+/* NOSOTROS RESPONSIVE (992px) */
+@media screen and (max-width:992px) {
+    p{
+        font-size: 1em;
+    }
+    
+    h1{
+        font-size: 3em;
+    }
+    .img--container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        .img--section{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            .oreo{
+                height: 60px;
+                width: 60px;
+            }
+            
+            .ferrero{
+                height: 60px;
+                width: 60px;
+            }
+            
+                .kinder{
+                    height: 60px;
+                    width: 60px;
+            }
+            
+            .sweet{
+                height: 60px;
+                width: 60px;
+            }
+        }
+    }
+    
+    
+    
+        /* footer */
+        .ig_logo{
+            height: 40px;
+            width: 40px;
+    }
+    
+    .tw_logo{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .gmail_logo{
+        height: 40px;
+        width: 40px;
+    }
+    }

@@ -1,0 +1,60 @@
+@use './variables';
+/* Section 1 */
+.index--section{
+    margin-top: 100px;
+    font-size: variables.$rem2;
+}
+h1{
+    font-size: 6rem;
+    text-align: variables.$textaling;
+}
+/* section 2 */
+h2{
+    font-size: 4rem;
+    text-align: variables.$textaling;
+}
+.card{
+    display: flex;
+    align-items: variables.$textaling;
+}
+.div--card{
+    width: variables.$width-card;
+    height: variables.$height-card;
+}
+.card-img-top{
+    width: variables.$width-card;
+    height:variables.$height-card;
+}
+/* section 3 */
+.img--container{
+    display: flex;
+    justify-content: variables.$textaling;
+    height: variables.$height100;
+    list-style: none;
+    .img--section{
+        margin-top: variables.$rem2;
+        margin-left: variables.$rem2;
+        .oreo{
+            height: variables.$height-var;
+            width:  variables.$width-var;
+        }
+        
+        .ferrero{
+            height: variables.$height-var;
+            width: variables.$width-var;
+        }
+        
+        .kinder{
+            height: variables.$height-var;
+            width: variables.$width-var;
+        }
+        
+        .sweet{
+            height:  variables.$height-var;
+            width: variables.$width-var;
+        }
+    }
+}
+
+
+

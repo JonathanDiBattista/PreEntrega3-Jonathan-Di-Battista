@@ -1,0 +1,9 @@
+@use './variables';
+/* INFO */
+.info--section{
+    font-size: variables.$rem2;
+}
+.inframe--img{
+    width: variables.$width100;
+}
+

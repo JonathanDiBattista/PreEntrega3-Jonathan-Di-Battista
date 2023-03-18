@@ -1,0 +1,16 @@
+@use './variables';
+/* INDEX */
+.header--container{
+    background-color: variables.$color-back;
+    width: variables.$width100;
+    position: fixed;
+    z-index: 1000;
+    .nav--style{
+        font-size: 1.5rem; 
+        text-align: variables.$textaling;
+    }
+    .logo{
+        height: 70px;
+        width: 70px;
+    }
+}

@@ -1,0 +1,180 @@
+/* INDEX RESPONSIVE (1200px)*/
+
+@media screen and (max-width:1200px) {
+
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    
+    p{
+        font-size: 1em;
+    }
+    
+    h1{
+        font-size: 4em;
+        text-align: center;
+        }
+    
+    h2{
+        font-size: 3em;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .div--card{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .card-img-top{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .img--container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        .img--section{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            .oreo{
+                height: 70px;
+                width: 70px;
+            }
+            
+            .ferrero{
+                height: 70px;
+                width: 70px;
+            }
+            
+            .kinder{
+                height: 70px;
+                width: 70px;
+            }
+            
+            .sweet{
+                height: 70px;
+                width: 70px;
+        }
+        
+        }
+        
+    }
+    
+    /* footer */
+    
+    .ig_logo{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .tw_logo{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .gmail_logo{
+        height: 40px;
+        width: 40px;
+    }
+    }
+    
+    /* INDEX RESPONSIVE (992px)*/
+    
+    @media screen and (max-width:992px) {
+    p{
+        font-size: 1em;
+    }
+        
+    h1{
+        font-size: 3em;
+    }
+    
+    h2{
+        font-size: 2em;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .div--card{
+        width: 60px;
+        height: 60px;
+    }
+        
+    .card-img-top{
+        width: 60px;
+        height: 60px;
+        }
+        
+    .img--container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        .img--section{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            .oreo{
+                height: 60px;
+                width: 60px;
+            }
+            
+            .ferrero{
+                height: 60px;
+                width: 60px;
+            }
+                
+            .kinder{
+                height: 60px;
+                width: 60px;
+            }
+                
+            .sweet{
+                height: 60px;
+                width: 60px;
+            }
+        }
+            
+    }
+    
+        
+    /* footer */
+    .ig_logo{
+        height: 40px;
+        width: 40px;
+    }
+        
+    .tw_logo{
+        height: 40px;
+        width: 40px;
+    }
+        
+    .gmail_logo{
+        height: 40px;
+        width: 40px;
+    }
+    }
+    
+    /* INDEX RESPONSIVE (768px)*/
+    @media screen and (max-width:768px) {
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    }
