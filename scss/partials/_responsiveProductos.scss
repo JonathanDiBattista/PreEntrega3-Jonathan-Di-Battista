@@ -1,25 +1,26 @@
+@use './variables';
 /* PRODUCTOS RESPONSIVE (1200px) */
 
 @media screen and (max-width:1200px) {
 .card-title{
-    text-align: center;
+    text-align: variables.$textaling;
 }
 }
 /* PRODUCTOS RESPONSIVE(992px) */
 
 @media screen and (max-width:992px) {
 .card-title{
-    text-align: center;
+    text-align: variables.$textaling;
 }    
 
 .card-body{
     padding-top: 150px;
-    text-align: center;
+    text-align: variables.$textaling;
 }
 .div--card{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: variables.$textaling;
     .card-img-top{
         width: 200px;
         height: 200px;
@@ -33,15 +34,14 @@ h2{
     font-size: 2em;
     }
 .card-title{
-    text-align: center;
-}    
+    text-align: variables.$textaling;
 
 .card-body{
     padding-top: 200px;
-    text-align: center;
+    text-align: variables.$textaling;
 }
 .div--card{
-    width: 100%;
+    width: variables.$width100;
     display: flex;
     justify-content: center;
     .card-img-top{
@@ -49,4 +49,5 @@ h2{
         height: 250px;
     }
     }
+}
 }

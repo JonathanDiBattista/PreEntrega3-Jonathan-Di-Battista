@@ -1,7 +1,6 @@
+@use './variables';
 /* INDEX RESPONSIVE (1200px)*/
-
 @media screen and (max-width:1200px) {
-
     .logo{
         width: 60px;
         height: 60px;
@@ -13,7 +12,7 @@
     
     h1{
         font-size: 4em;
-        text-align: center;
+        text-align: variables.$textaling;
         }
     
     h2{
@@ -21,8 +20,8 @@
     }
     .card{
         display: flex;
-        align-items: center;
-        height: 100%;
+        align-items: variables.$textaling;
+        height: variables.$height100;
     }
     
     .div--card{
@@ -39,34 +38,34 @@
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: variables.$textaling;
         list-style: none;
-        .img--section{
-            margin-top: 2rem;
-            margin-left: 2rem;
-            .oreo{
-                height: 70px;
-                width: 70px;
-            }
-            
-            .ferrero{
-                height: 70px;
-                width: 70px;
-            }
-            
-            .kinder{
-                height: 70px;
-                width: 70px;
-            }
-            
-            .sweet{
-                height: 70px;
-                width: 70px;
-        }
-        
-        }
         
     }
+    
+}
+.img--section{
+    margin-top: variables.$rem2;
+    margin-left: variables.$rem2;
+    .oreo{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .ferrero{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .kinder{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .sweet{
+        height: 70px;
+        width: 70px;
+}
     
     /* footer */
     
@@ -102,8 +101,8 @@
     }
     .card{
         display: flex;
-        align-items: center;
-        height: 100%;
+        align-items: variables.$textaling;
+        height:variables.$height100;
     }
     
     .div--card{
@@ -120,11 +119,11 @@
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: variables.$textaling;
         list-style: none;
         .img--section{
-            margin-top: 2rem;
-            margin-left: 2rem;
+            margin-top: variables.$rem2;
+            margin-left: variables.$rem2;
             .oreo{
                 height: 60px;
                 width: 60px;

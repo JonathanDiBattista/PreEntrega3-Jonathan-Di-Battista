@@ -64,39 +64,40 @@ h2 {
   height: 100%;
   list-style: none;
 }
-.img--container .img--section {
+
+.img--section {
   margin-top: 2rem;
   margin-left: 2rem;
 }
-.img--container .img--section .oreo {
+.img--section .oreo {
   height: 80px;
   width: 80px;
 }
-.img--container .img--section .ferrero {
+.img--section .ferrero {
   height: 80px;
   width: 80px;
 }
-.img--container .img--section .kinder {
+.img--section .kinder {
   height: 80px;
   width: 80px;
 }
-.img--container .img--section .sweet {
+.img--section .sweet {
   height: 80px;
   width: 80px;
 }
 
 /* Nosotros */
+.all--section {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
 .container_div {
   width: 100%;
 }
 .container_div .img_cajonp {
   width: 100%;
   height: 800px;
-}
-
-.all--section {
-  margin-top: 10px;
-  font-size: 2rem;
 }
 
 /* INFO */
@@ -113,6 +114,30 @@ h2 {
   margin-top: 15px;
 }
 
+.p--contacto {
+  font-size: 30px;
+}
+
+.form-control {
+  background-color: white;
+  border: 2px solid #E0BAD7;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 10px;
+}
+
+.buttonhov {
+  background-color: #E0BAD7;
+  color: #fff;
+  border: 2px solid #E0BAD7;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.buttonhov:hover {
+  background-color: #E0BAD7;
+}
+
 /* footer */
 footer {
   background-color: #E0BAD7;
@@ -120,37 +145,39 @@ footer {
   font-size: 1.5em;
   height: 100%;
 }
-footer .copy {
-  text-align: center;
-}
 footer .div--footer {
   height: 100%;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
 }
-footer .div--footer .img_ul {
+
+.img_ul {
   display: flex;
   justify-content: center;
   height: 100%;
   list-style: none;
 }
-footer .div--footer .img_ul .img_footer {
+.img_ul .img_footer {
   height: 100%;
   margin-top: 2rem;
   margin-left: 2rem;
 }
-footer .div--footer .img_ul .img_footer .ig_logo {
+.img_ul .img_footer .ig_logo {
   height: 50px;
   width: 50px;
 }
-footer .div--footer .img_ul .img_footer .tw_logo {
+.img_ul .img_footer .tw_logo {
   height: 50px;
   width: 50px;
 }
-footer .div--footer .img_ul .img_footer .gmail_logo {
+.img_ul .img_footer .gmail_logo {
   height: 50px;
   width: 50px;
+}
+
+.copy {
+  text-align: center;
 }
 
 /* INDEX RESPONSIVE (1200px)*/
@@ -189,40 +216,41 @@ footer .div--footer .img_ul .img_footer .gmail_logo {
     justify-content: center;
     list-style: none;
   }
-  .img--container .img--section {
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-  .img--container .img--section .oreo {
-    height: 70px;
-    width: 70px;
-  }
-  .img--container .img--section .ferrero {
-    height: 70px;
-    width: 70px;
-  }
-  .img--container .img--section .kinder {
-    height: 70px;
-    width: 70px;
-  }
-  .img--container .img--section .sweet {
-    height: 70px;
-    width: 70px;
-  }
-  /* footer */
-  .ig_logo {
-    height: 40px;
-    width: 40px;
-  }
-  .tw_logo {
-    height: 40px;
-    width: 40px;
-  }
-  .gmail_logo {
-    height: 40px;
-    width: 40px;
-  }
 }
+.img--section {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  /* footer */
+}
+.img--section .oreo {
+  height: 70px;
+  width: 70px;
+}
+.img--section .ferrero {
+  height: 70px;
+  width: 70px;
+}
+.img--section .kinder {
+  height: 70px;
+  width: 70px;
+}
+.img--section .sweet {
+  height: 70px;
+  width: 70px;
+}
+.img--section .ig_logo {
+  height: 40px;
+  width: 40px;
+}
+.img--section .tw_logo {
+  height: 40px;
+  width: 40px;
+}
+.img--section .gmail_logo {
+  height: 40px;
+  width: 40px;
+}
+
 /* INDEX RESPONSIVE (992px)*/
 @media screen and (max-width: 992px) {
   p {
@@ -382,16 +410,16 @@ footer .div--footer .img_ul .img_footer .gmail_logo {
   .card-title {
     text-align: center;
   }
-  .card-body {
+  .card-title .card-body {
     padding-top: 200px;
     text-align: center;
   }
-  .div--card {
+  .card-title .div--card {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  .div--card .card-img-top {
+  .card-title .div--card .card-img-top {
     width: 250px;
     height: 250px;
   }

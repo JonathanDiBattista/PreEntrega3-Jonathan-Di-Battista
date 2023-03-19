@@ -5,41 +5,41 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     height: variables.$height100;
-    .copy{
-        text-align: variables.$textaling;
-    }
     .div--footer{
         height: variables.$height100;
         display: flex;
         justify-content: space-evenly;
         list-style: none;
-        .img_ul{
-            display: flex;
-            justify-content: variables.$textaling;
-            height: 100%;
-            list-style: none;
-            .img_footer{
-                height:  variables.$height100;
-                margin-top:  variables.$rem2;
-                margin-left: variables.$rem2;
-                .ig_logo{
-                    height:50px;
-                    width:50px;
-                }
-                
-                .tw_logo{
-                    height: 50px;
-                    width: 50px;
-                }
-                
-                .gmail_logo{
-                    height: 50px;
-                    width: 50px;
-                }
-    }
-        }
         
     }
 }
-
+.img_ul{
+    display: flex;
+    justify-content: variables.$textaling;
+    height: 100%;
+    list-style: none;
+    .img_footer{
+        height:  variables.$height100;
+        margin-top:  variables.$rem2;
+        margin-left: variables.$rem2;
+        .ig_logo{
+            height:50px;
+            width:50px;
+        }
+        
+        .tw_logo{
+            height: 50px;
+            width: 50px;
+        }
+        
+        .gmail_logo{
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+.copy{
+    text-align: variables.$textaling;
+}
+    
 

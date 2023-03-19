@@ -1,4 +1,28 @@
+@use './variables';
 /* CONTACTO */
 .info--section{
     margin-top: 15px;
+}
+.p--contacto{
+    font-size: 30px;
+}
+
+.form-control{
+    background-color: white;
+    border: 2px solid variables.$color-back;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+.buttonhov{
+    background-color: variables.$color-back;
+    color: #fff;
+    border: 2px solid variables.$color-back;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 12px;
+    &:hover{
+        background-color: variables.$color-back;
+    }
 }

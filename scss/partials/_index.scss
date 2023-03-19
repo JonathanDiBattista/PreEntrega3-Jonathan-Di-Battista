@@ -31,30 +31,30 @@ h2{
     justify-content: variables.$textaling;
     height: variables.$height100;
     list-style: none;
-    .img--section{
-        margin-top: variables.$rem2;
-        margin-left: variables.$rem2;
-        .oreo{
-            height: variables.$height-var;
-            width:  variables.$width-var;
-        }
-        
-        .ferrero{
-            height: variables.$height-var;
-            width: variables.$width-var;
-        }
-        
-        .kinder{
-            height: variables.$height-var;
-            width: variables.$width-var;
-        }
-        
-        .sweet{
-            height:  variables.$height-var;
-            width: variables.$width-var;
-        }
+}
+.img--section{
+    margin-top: variables.$rem2;
+    margin-left: variables.$rem2;
+    .oreo{
+        height: variables.$height-var;
+        width:  variables.$width-var;
+    }
+    
+    .ferrero{
+        height: variables.$height-var;
+        width: variables.$width-var;
+    }
+    
+    .kinder{
+        height: variables.$height-var;
+        width: variables.$width-var;
+    }
+    
+    .sweet{
+        height:  variables.$height-var;
+        width: variables.$width-var;
     }
 }
-
-
-
+    
+    
+    
