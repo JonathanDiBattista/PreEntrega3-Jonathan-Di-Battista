@@ -46,6 +46,10 @@ h2 {
   display: flex;
   align-items: center;
 }
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
 
 .div--card {
   width: 400px;
@@ -202,12 +206,12 @@ footer .div--footer {
     height: 100%;
   }
   .div--card {
-    width: 60px;
-    height: 60px;
+    width: 180px;
+    height: 180px;
   }
   .card-img-top {
-    width: 60px;
-    height: 60px;
+    width: 180px;
+    height: 180px;
   }
   .img--container {
     padding-top: 10px;
@@ -266,6 +270,9 @@ footer .div--footer {
     display: flex;
     align-items: center;
     height: 100%;
+  }
+  .card:hover {
+    transform: none;
   }
   .div--card {
     width: 60px;
@@ -326,6 +333,9 @@ footer .div--footer {
   }
   p {
     font-size: 0.8em;
+  }
+  .card:hover {
+    transform: none;
   }
 }
 /* NOSOTROS RESPONSIVE (992px) */

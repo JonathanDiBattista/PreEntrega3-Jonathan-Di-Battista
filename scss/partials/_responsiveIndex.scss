@@ -25,13 +25,13 @@
     }
     
     .div--card{
-        width: 60px;
-        height: 60px;
+        width: 180px;
+        height: 180px;
     }
     
     .card-img-top{
-        width: 60px;
-        height: 60px;
+        width: 180px;
+        height: 180px;
     }
     
     .img--container{
@@ -103,6 +103,9 @@
         display: flex;
         align-items: variables.$textaling;
         height:variables.$height100;
+        &:hover{
+            transform: none;
+        }
     }
     
     .div--card{
@@ -176,4 +179,10 @@
     p{
         font-size: 0.8em;
     }
+    .card{
+        &:hover{
+            transform: none;
+        }
     }
+    }
+    

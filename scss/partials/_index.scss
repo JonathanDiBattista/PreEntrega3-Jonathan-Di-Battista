@@ -16,6 +16,10 @@ h2{
 .card{
     display: flex;
     align-items: variables.$textaling;
+    &:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
 }
 .div--card{
     width: variables.$width-card;
