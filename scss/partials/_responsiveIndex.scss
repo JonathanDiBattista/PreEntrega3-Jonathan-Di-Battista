@@ -1,7 +1,6 @@
 @use './variables';
 /* INDEX RESPONSIVE (1200px)*/
 @media screen and (max-width:1200px) {
-    }
     .logo{
         width: 60px;
         height: 60px;
@@ -44,7 +43,7 @@
         
     }
     
-
+}
 .img--section{
     margin-top: variables.$rem2;
     margin-left: variables.$rem2;
@@ -89,12 +88,6 @@
     /* INDEX RESPONSIVE (992px)*/
     
     @media screen and (max-width:992px) {
-        .flex--container{
-            display: block;
-            .text--div{
-                margin-top: 13px;
-            }
-        }
     p{
         font-size: 1em;
     }

@@ -4,9 +4,15 @@
     margin-top: 15px;
 }
 .p--contacto{
-    font-size: 30px;
+    font-size: 20px;
 }
-
+.p--sub{
+    text-decoration: underline;
+    text-decoration-color: variables.$color-back;
+}
+.sub--all{
+    font-size: 40px;
+}
 .form-control{
     background-color: white;
     border: 2px solid variables.$color-back;

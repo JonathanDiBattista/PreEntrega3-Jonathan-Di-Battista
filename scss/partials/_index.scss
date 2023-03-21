@@ -3,10 +3,10 @@
 .index--section{
     margin-top: 100px;
     font-size: variables.$rem2;
-    h1{
-        font-size: 6rem;
-        text-align: variables.$textaling;
-    }
+}
+h1{
+    font-size: 6rem;
+    text-align: variables.$textaling;
 }
 .flex--container{
     display: flex;
@@ -14,7 +14,7 @@
     .text--div{
         border: 2px solid variables.$color-back;
         border-radius: 20px;
-        margin: px;
+        margin: 4px;
         padding: 10px 15px;
         font-size: 16px;
     }

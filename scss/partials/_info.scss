@@ -3,6 +3,9 @@
 .info--section{
     font-size: variables.$rem2;
     padding: 10px;
+    .margin--h1{
+        margin-top: 50px;
+    }
 }
 .inframe--img{
     width: variables.$width100;
