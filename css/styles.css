@@ -30,10 +30,21 @@ html {
   margin-top: 100px;
   font-size: 2rem;
 }
-
-h1 {
+.index--section h1 {
   font-size: 6rem;
   text-align: center;
+}
+
+.flex--container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex--container .text--div {
+  border: 2px solid #E0BAD7;
+  border-radius: 20px;
+  margin: px;
+  padding: 10px 15px;
+  font-size: 16px;
 }
 
 /* section 2 */
@@ -49,6 +60,9 @@ h2 {
 .card:hover {
   transform: scale(1.1);
   z-index: 1;
+}
+.card .card-text {
+  font-size: 15px;
 }
 
 .div--card {
@@ -107,6 +121,7 @@ h2 {
 /* INFO */
 .info--section {
   font-size: 2rem;
+  padding: 10px;
 }
 
 .inframe--img {
@@ -185,42 +200,48 @@ footer .div--footer {
 }
 
 /* INDEX RESPONSIVE (1200px)*/
-@media screen and (max-width: 1200px) {
-  .logo {
-    width: 60px;
-    height: 60px;
-  }
-  p {
-    font-size: 1em;
-  }
-  h1 {
-    font-size: 4em;
-    text-align: center;
-  }
-  h2 {
-    font-size: 3em;
-  }
-  .card {
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-  .div--card {
-    width: 180px;
-    height: 180px;
-  }
-  .card-img-top {
-    width: 180px;
-    height: 180px;
-  }
-  .img--container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-  }
+.logo {
+  width: 60px;
+  height: 60px;
 }
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.div--card {
+  width: 180px;
+  height: 180px;
+}
+
+.card-img-top {
+  width: 180px;
+  height: 180px;
+}
+
+.img--container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
 .img--section {
   margin-top: 2rem;
   margin-left: 2rem;
@@ -257,6 +278,12 @@ footer .div--footer {
 
 /* INDEX RESPONSIVE (992px)*/
 @media screen and (max-width: 992px) {
+  .flex--container {
+    display: block;
+  }
+  .flex--container .text--div {
+    margin-top: 13px;
+  }
   p {
     font-size: 1em;
   }

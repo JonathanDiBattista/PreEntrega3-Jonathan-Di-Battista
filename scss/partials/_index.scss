@@ -3,10 +3,21 @@
 .index--section{
     margin-top: 100px;
     font-size: variables.$rem2;
+    h1{
+        font-size: 6rem;
+        text-align: variables.$textaling;
+    }
 }
-h1{
-    font-size: 6rem;
-    text-align: variables.$textaling;
+.flex--container{
+    display: flex;
+    justify-content: space-between;
+    .text--div{
+        border: 2px solid variables.$color-back;
+        border-radius: 20px;
+        margin: px;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
 }
 /* section 2 */
 h2{
@@ -20,6 +31,9 @@ h2{
         transform: scale(1.1);
         z-index: 1;
     }
+    .card-text{
+        font-size: 15px;
+    }
 }
 .div--card{
     width: variables.$width-card;
@@ -29,6 +43,8 @@ h2{
     width: variables.$width-card;
     height:variables.$height-card;
 }
+
+
 /* section 3 */
 .img--container{
     display: flex;
