@@ -88,6 +88,9 @@
     /* INDEX RESPONSIVE (992px)*/
     
     @media screen and (max-width:992px) {
+        .flex--container{
+            display: block;
+        }
     p{
         font-size: 1em;
     }
