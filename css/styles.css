@@ -34,6 +34,7 @@ html {
 h1 {
   font-size: 6rem;
   text-align: center;
+  color: #E0BAD7;
 }
 
 .flex--container {
@@ -52,6 +53,7 @@ h1 {
 h2 {
   font-size: 4rem;
   text-align: center;
+  color: #E0BAD7;
 }
 
 .card {
@@ -116,7 +118,7 @@ h2 {
 }
 .container_div .img_cajonp {
   width: 100%;
-  height: 800px;
+  height: 650px;
 }
 
 /* INFO */

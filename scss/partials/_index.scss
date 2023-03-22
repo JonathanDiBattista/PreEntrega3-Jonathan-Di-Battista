@@ -7,6 +7,7 @@
 h1{
     font-size: 6rem;
     text-align: variables.$textaling;
+    color: variables.$color-back;
 }
 .flex--container{
     display: flex;
@@ -23,6 +24,7 @@ h1{
 h2{
     font-size: 4rem;
     text-align: variables.$textaling;
+    color: variables.$color-back;
 }
 .card{
     display: flex;
