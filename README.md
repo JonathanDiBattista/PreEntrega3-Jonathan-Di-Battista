@@ -12,7 +12,5 @@ Este proyecto consiste en una página web que muestra una variedad de tortas y d
 
 Para utilizar este proyecto, simplemente descargue o clone el repositorio en su computadora y abra el archivo index.html en su navegador web.
 
-Please make sure to update tests as appropriate.
-
 ## Créditos
 Este proyecto fue desarrollado por Di Battista Jonathan,como parte de un proyecto de aprendizaje de HTML, CSS, SASS y Bootstrap.
